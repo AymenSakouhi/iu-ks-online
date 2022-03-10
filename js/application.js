@@ -1001,8 +1001,19 @@ let mT = [
         //"careIdCs" : '10008075_CS'
         "careIdCs" : '10008374',
         "intake" : "Oct 21, Apr 22, Oct 22"
+    },
+    {
+        "name": "MBA - Specialisation Salesforce - 90",
+        "careId": "121_FI_SF",
+        "careIdCs": "10008379_SF",
+        "intake": "Apr 22, Jul 22, Oct 22, Jan 23, Apr 23, Jul 23, Oct 23",
+    },
+    {
+        "name": "M.Sc. Cyber Security Management - 60",
+        "careId": "10008015_FI",
+        "careIdCs": "10008534_CSM",
+        "intake": "Oct 22, Jan 23, Apr 23, Jul 23, Oct 23",
     }
-
 
 ]
 //ALL THESE ARE FLEX PROGRAMS
@@ -1040,8 +1051,9 @@ mtCheckOnline = [
     "M.Sc. Business Intelligence - 120",
     "M.Sc. Finance, Accounting & Taxation - 120",
     "M.A. Innovation & Entrepreneurship - 120",
-    "B.Eng. Engineering - 180"
-
+    "B.Eng. Engineering - 180",
+    "MBA - Specialisation Salesforce - 90",
+    "M.Sc. Cyber Security Management - 60"
 
 ]
 
