@@ -1973,10 +1973,10 @@ document.getElementById("studyProgram").addEventListener("change", function() {
         $('#datepicker').datepicker("setDate", new Date(2022,4,16) );
         $('#datepicker').datepicker("option",{ minDate: new Date(2022,4,16)})
     } else {
-        /*$('#datepicker').datepicker("setDate", +10 )
-        $('#datepicker').datepicker("option",{ minDate: +10})
-        $('#datepicker').datepicker("setDate", +10 )
-        $('#datepicker').datepicker("option",{ minDate: +10})*/
+        $('#datepicker').datepicker("setDate", +5 )
+        $('#datepicker').datepicker("option",{ minDate: +5})
+        $('#datepicker').datepicker("setDate", +5 )
+        $('#datepicker').datepicker("option",{ minDate: +5})
     }
     $(".ui-state-default.ui-state-active").attr('style', 'background: #ffffff !important;color: #000000 !important;border: none !important');
 
