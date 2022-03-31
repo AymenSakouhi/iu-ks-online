@@ -281,8 +281,8 @@ label.accept input[type="checkbox"]{margin-right:5px; vertical-align:middle;}
 .study-campus{background:url(../images/on-campus.png) 95% center no-repeat;background-color: #F5F4F3;border: 0px !important;}
 
 .sticky{position:fixed; top:10%; right:10%;}
-.summary{position:fixed; right:7px; bottom:10px; padding:6px 3px 3px; background:#000; border-radius:50%; width:75px; height:75px; text-align:center; cursor:pointer; display:none; z-index:9;border: 4px #FFFFFF solid}
-.summary h6{font-size:11px; line-height:normal; color:#fff; text-transform:uppercase; margin-top:5px;}
+.summary{position:fixed; right:7px; bottom:10px; padding:6px 3px 3px; background:#4DFBFF; border-radius:50%; width:75px; height:75px; text-align:center; cursor:pointer; display:none; z-index:9;border: 1.9974px #000 solid}
+.summary h6{font-size:11px; line-height:normal; color:#000; text-transform:uppercase; margin-top:5px;}
 .sidenav {height: 100%; width: 0; position: fixed; z-index:9999; top: 0; right: 0; overflow-x: hidden; transition: 0.5s; box-shadow:1px 2px 20px #00000076; z-index:10;}
 
 .sidenav .closebtn{position:absolute; bottom:0px; right: 25px; font-size: 36px; color:#000000;}
