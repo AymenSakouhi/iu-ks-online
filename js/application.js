@@ -1,7 +1,7 @@
 let voucherVar = null;
 let businessUnit = "fi";
 let obwVersion = "obw21";
-let agbVersion = '2.8';
+let agbVersion = '3.0';
 let directDebit = null;
 let locationSite = "3";
 let currentPage = 3;
@@ -2050,7 +2050,7 @@ function starting() {
 
     businessUnit = "fi";
     obwVersion = "obw21";
-    agbVersion = '2.8';
+    agbVersion = '3.0';
     directDebit = null;
     locationSite = "3";
     currentPage = 3;
