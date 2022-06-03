@@ -115,4 +115,4 @@ $( "#skip" ).click(function() {
 });
 
 
-$("#technicalMalfunctions").modal();
+//$("#technicalMalfunctions").modal();
