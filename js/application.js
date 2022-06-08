@@ -1029,6 +1029,18 @@ let mT = [
         "careId": "10008015_FI",
         "careIdCs": "10008534_CSM",
         "intake": "Oct 22, Jan 23, Apr 23, Jul 23, Oct 23",
+    },
+    {
+        "name": "B.Sc. Applied Psychology - 180",
+        "careId": "10008623_FI",
+    },
+    {
+        "name": "M.A. Digital Marketing - 60",
+        "careId": "10008036_FI",
+    },
+    {
+        "name": "M.A. Digital Marketing - 120",
+        "careId": "10008035_FI",
     }
 
 ]
@@ -1073,7 +1085,11 @@ mtCheckOnline = [
     "M.A. Innovation & Entrepreneurship - 120",
     "B.Eng. Engineering - 180",
     "MBA - Specialisation Salesforce - 90",
-    "M.Sc. Cyber Security Management - 60"
+    "M.Sc. Cyber Security Management - 60",
+    "B.Sc. Industrial and Organisational Psychology - 180",
+    "B.Sc. Applied Psychology - 180",
+    "M.A. Digital Marketing - 60",
+    "M.A. Digital Marketing - 120",
 
 ]
 
@@ -2089,6 +2105,15 @@ document.getElementById("studyProgram").addEventListener("change", function() {
         $("#studyProgram :selected").text() === "B.Sc. Industrial and Organisational Psychology - 180") {
         $("#datepicker").datepicker("setDate", new Date(2023, 1, 1));
         $("#datepicker").datepicker("option", { minDate: new Date(2023, 1, 1) });
+    } else if( $("#studyProgram :selected").text() === "B.Sc. Applied Psychology - 180") {
+        $("#datepicker").datepicker("setDate", new Date(2023, 7, 1));
+        $("#datepicker").datepicker("option", { minDate: new Date(2023, 7, 1) });
+    } else if($("#studyProgram :selected").text() === "M.A. Digital Marketing - 60") {
+        $("#datepicker").datepicker("setDate", new Date(2023, 1, 11));
+        $("#datepicker").datepicker("option", { minDate: new Date(2023, 1, 11) });
+    } else if($("#studyProgram :selected").text() === "M.A. Digital Marketing - 120") {
+        $("#datepicker").datepicker("setDate", new Date(2023, 4, 2));
+        $("#datepicker").datepicker("option", { minDate: new Date(2023, 4, 2) });
     } else {
         $('#datepicker').datepicker("setDate", +5 )
         $('#datepicker').datepicker("option",{ minDate: +5})
