@@ -1300,7 +1300,14 @@ function checkingFields() {
             $("#myModalgender").modal();
             document.getElementById("submit").disabled = false;
             return false;
-    } else if (   myNameCheck == "" || surNameCheck == "" || document.getElementById('street').value === "" || document.getElementById('e-mail').value === "" || document.getElementById('date-of-birth').value === "" || document.getElementById('city').value === "" || document.getElementById('city').value === ""  ) {
+    } else if (   myNameCheck == "" || surNameCheck == "" || 
+        document.getElementById('street').value === "" || 
+        document.getElementById('e-mail').value === "" || 
+        document.getElementById('date-of-birth').value === "" || 
+        document.getElementById('city').value === "" || 
+        document.getElementById('phone').value === ""|| 
+        document.getElementById('nr').value === ""||
+        document.getElementById('postcode').value === ""  ) {
         validatefilledIn();
         $("#myModal").modal();
         document.getElementById("submit").disabled = false;
