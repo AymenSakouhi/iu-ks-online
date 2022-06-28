@@ -1352,7 +1352,7 @@ function activate() {
     let city = document.getElementById('city').value;
     let country = document.getElementById('country').value;
     let nationality = document.getElementById('nationality').value;
-    let studyStartDate = document.getElementsByClassName('study-start')[0].value;
+    let studyStartDate = document.getElementsByClassName('study-start')[0].value.replace(/T.*/,'').split('/').join('-');
     let fullNumber = document.getElementsByClassName('iti__selected-dial-code')[0].innerText + document.getElementById('phone').value;
     let email = document.getElementById('e-mail').value;
     let studyProgram = document.getElementById('studyProgram').value;
