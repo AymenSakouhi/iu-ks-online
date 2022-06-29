@@ -1028,12 +1028,6 @@ let mT = [
         "intake": "Apr 22, Jul 22, Oct 22, Jan 23, Apr 23, Jul 23, Oct 23",
     },
     {
-        "name": "M.Sc. Cyber Security Management - 60",
-        "careId": "10008015_FI",
-        "careIdCs": "10008534_CSM",
-        "intake": "Oct 22, Jan 23, Apr 23, Jul 23, Oct 23",
-    },
-    {
         "name": "B.Sc. Applied Psychology - 180",
         "careId": "10008623_FI",
     },
@@ -1088,7 +1082,6 @@ mtCheckOnline = [
     "M.A. Innovation & Entrepreneurship - 120",
     "B.Eng. Engineering - 180",
     "MBA - Specialisation Salesforce - 90",
-    "M.Sc. Cyber Security Management - 60",
     "B.Sc. Industrial and Organisational Psychology - 180",
     "B.Sc. Applied Psychology - 180",
     "M.A. Digital Marketing - 60",
