@@ -2146,7 +2146,8 @@ document.getElementById("studyProgram").addEventListener("change", function() {
     } else if($("#studyProgram :selected").text() === "M.A. Digital Marketing - 120") {
         $("#datepicker").datepicker("setDate", new Date(2023, 4, 2));
         $("#datepicker").datepicker("option", { minDate: new Date(2023, 4, 2) });
-    } else if($("#studyProgram :selected").text() === 'M.A. Marketing Management - 60') {
+    } else if($("#studyProgram :selected").text() === 'M.A. Marketing Management - 60' ||
+        $("#studyProgram :selected").text() === 'M.A. Marketing Management - 120') {
         $("#datepicker").datepicker("setDate", new Date(2022, 9, 1));
         $("#datepicker").datepicker("option", { minDate: new Date(2022, 9, 1) });
     } else {
@@ -2155,7 +2156,6 @@ document.getElementById("studyProgram").addEventListener("change", function() {
         $('#datepicker').datepicker("setDate", +5 )
         $('#datepicker').datepicker("option",{ minDate: +5})
     }
-    // here
     $(".ui-state-default.ui-state-active").attr('style', 'background: #ffffff !important;color: #000000 !important;border: none !important');
 
     /*setTimeout(function () {
