@@ -1038,7 +1038,24 @@ let mT = [
     {
         "name": "M.A. Digital Marketing - 120",
         "careId": "10008035_FI",
-    }
+    },
+    {
+      name: "M.A. Growth Hacking - 120",
+      careId: "10008715_FI",
+    },
+    {
+      name: "M.Sc. Industrial and Organizational Psychology - 60",
+      careId: "10008625_FI",
+    },
+    {
+      name: "M.Sc. Industrial and Organizational Psychology - 120",
+      careId: "10008624_FI",
+    },
+    {
+      name: "M.A. Growth Hacking for Entrepreneurs - 60",
+      careId: "10008716_FI",
+    },
+    
 
 ]
 //ALL THESE ARE FLEX PROGRAMS
@@ -1086,7 +1103,10 @@ mtCheckOnline = [
     "B.Sc. Applied Psychology - 180",
     "M.A. Digital Marketing - 60",
     "M.A. Digital Marketing - 120",
-
+    "M.A. Growth Hacking - 120",
+    "M.Sc. Industrial and Organizational Psychology - 60",
+    "M.Sc. Industrial and Organizational Psychology - 120",
+    "M.A. Growth Hacking for Entrepreneurs - 60",
 ]
 
 function fullOut(dip) {
@@ -1412,11 +1432,14 @@ function activate() {
         }
         let obj;
 
-        fetch('https://api.careerpartner.eu/centraldataservice-api/lara/api/v2/application/obw' , {
+        fetch(
+            // 'https://api.careerpartner.eu/centraldataservice-api/lara/api/v2/application/obw', 
+            "https://api.careerpartner.eu/integration-centraldataservice-api/lara/api/v2/application/obw",
+        {
             method : 'POST',
             headers: {
-                //Authorization: "TPPDVgSNCvp4TY5y",
-                Authorization: "74UgeuBcRZjX6akV",
+                Authorization: "TPPDVgSNCvp4TY5y",
+                // Authorization: "74UgeuBcRZjX6akV",
                 'Content-Type' : 'application/json'
             },
             body: JSON.stringify(
@@ -2150,6 +2173,18 @@ document.getElementById("studyProgram").addEventListener("change", function() {
         $("#studyProgram :selected").text() === 'M.A. Marketing Management - 120') {
         $("#datepicker").datepicker("setDate", new Date(2022, 9, 1));
         $("#datepicker").datepicker("option", { minDate: new Date(2022, 9, 1) });
+    } else if($("#studyProgram :selected").text() === "M.A. Growth Hacking - 120") {
+        $("#datepicker").datepicker("setDate", new Date(2023, 4, 2));
+        $("#datepicker").datepicker("option", { minDate: new Date(2023, 4, 2) });
+      } else if ($("#studyProgram :selected").text() ===  "M.Sc. Industrial and Organizational Psychology - 60"){
+        $("#datepicker").datepicker("setDate", new Date(2023, 7, 1));
+        $("#datepicker").datepicker("option", { minDate: new Date(2023, 7, 1) });
+      } else if ($("#studyProgram :selected").text() === "M.Sc. Industrial and Organizational Psychology - 120"){
+        $("#datepicker").datepicker("setDate", new Date(2023, 7, 1));
+        $("#datepicker").datepicker("option", { minDate: new Date(2023, 7, 1) });
+      } else if ($("#studyProgram :selected").text() === "M.A. Growth Hacking for Entrepreneurs - 60"){
+        $("#datepicker").datepicker("setDate", new Date(2023, 10, 2));
+        $("#datepicker").datepicker("option", { minDate: new Date(2023, 10, 2) });
     } else {
         $('#datepicker').datepicker("setDate", +5 )
         $('#datepicker').datepicker("option",{ minDate: +5})
