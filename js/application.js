@@ -1054,7 +1054,16 @@ let mT = [
     {
       name: "M.Sc. Industrial and Organizational Psychology - 120",
       careId: "10008624_FI",
-    }
+    },
+    {
+        name: "M.A. Project Management - 60",
+        careId: "10008088_FI_PM",
+      },
+      {
+        name: "M.A. Project Management - 120",
+        careId: "10008087_FI_PM",
+      }
+
     
 ]
 //ALL THESE ARE FLEX PROGRAMS
@@ -1106,6 +1115,8 @@ mtCheckOnline = [
     "M.Sc. Industrial and Organizational Psychology - 60",
     "M.Sc. Industrial and Organizational Psychology - 120",
     "M.A. Growth Hacking for Entrepreneurs - 60",
+    "M.A. Project Management - 60",
+    "M.A. Project Management - 60"
 ]
 
 function fullOut(dip) {
@@ -2184,7 +2195,12 @@ document.getElementById("studyProgram").addEventListener("change", function() {
       } else if ($("#studyProgram :selected").text() === "M.A. Growth Hacking for Entrepreneurs - 60"){
         $("#datepicker").datepicker("setDate", new Date(2023, 10, 2));
         $("#datepicker").datepicker("option", { minDate: new Date(2023, 10, 2) });
-    } else {
+    } else if (
+        $("#studyProgram :selected").text() === "M.A. Project Management - 60"
+      ) {
+        $("#datepicker").datepicker("setDate", new Date(2022, 11, 1));
+        $("#datepicker").datepicker("option", { minDate: new Date(2022, 11, 1) });
+      } else {
         $('#datepicker').datepicker("setDate", +5 )
         $('#datepicker').datepicker("option",{ minDate: +5})
         $('#datepicker').datepicker("setDate", +5 )
