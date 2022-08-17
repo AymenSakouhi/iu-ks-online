@@ -2098,19 +2098,19 @@ document.getElementById("studyProgram").addEventListener("change", function() {
 
     checkLocation()
 
-    if($("#studyProgram :selected").text() === "M.Eng. Engineering Management - 60") {
+    /*if($("#studyProgram :selected").text() === "M.Eng. Engineering Management - 60") {
         $('#datepicker').datepicker("setDate", new Date(2021,9,15) )
         $('#datepicker').datepicker("option",{ minDate: new Date(2021,9,15)})
     } else if($("#studyProgram :selected").text() === "B.A. Digital Business - 180") {
         $('#datepicker').datepicker("setDate", new Date(2021,9,1) );
         $('#datepicker').datepicker("option",{ minDate: new Date(2021,9,1)})
-    } else if($("#studyProgram :selected").text() === "B.A. Aviation Management - 180" || $("#studyProgram :selected").text() === "B.A. Hospitality Management - 180") {
+    }  else if($("#studyProgram :selected").text() === "B.A. Aviation Management - 180" || $("#studyProgram :selected").text() === "B.A. Hospitality Management - 180") {
         $('#datepicker').datepicker("setDate", new Date(2022,8,1) );
         $('#datepicker').datepicker("option",{ minDate: new Date(2021,9,1)})
-    } else if($("#studyProgram :selected").text() === "B.Sc. Applied Artificial Intelligence - 180" || $("#studyProgram :selected").text() === "M.A. Information Technology Management - 60" || $("#studyProgram :selected").text() === "M.A. Information Technology Management - 120"){
+    }  else if($("#studyProgram :selected").text() === "B.Sc. Applied Artificial Intelligence - 180" || $("#studyProgram :selected").text() === "M.A. Information Technology Management - 60" || $("#studyProgram :selected").text() === "M.A. Information Technology Management - 120"){
         $('#datepicker').datepicker("setDate", new Date(2021,11,1) );
         $('#datepicker').datepicker("option",{ minDate: new Date(2021,11,1)})
-    }else if($("#studyProgram :selected").text() === "M.Sc. Data Management - 60" ){
+    }else */if($("#studyProgram :selected").text() === "M.Sc. Data Management - 60" ){
         $('#datepicker').datepicker("setDate", new Date(2023,8,1) );
         $('#datepicker').datepicker("option",{ minDate: new Date(2023,8,1)})
     }else if($("#studyProgram :selected").text() === "B.Eng. Engineering - 180" ){
@@ -2119,19 +2119,19 @@ document.getElementById("studyProgram").addEventListener("change", function() {
     }else if($("#studyProgram :selected").text() === "M.Sc. Data Management - 120" ){
         $('#datepicker').datepicker("setDate", new Date(2023,2,1) );
         $('#datepicker').datepicker("option",{ minDate: new Date(2023,2,1)})
-    } else if($("#studyProgram :selected").text() === "B.A. International Healthcare Management - 180" || $("#studyProgram :selected").text() === "M.A. International Healthcare Management - 120"){
+    } /*else  if($("#studyProgram :selected").text() === "B.A. International Healthcare Management - 180" || $("#studyProgram :selected").text() === "M.A. International Healthcare Management - 120"){
         $('#datepicker').datepicker("setDate", new Date(2022,3,1) );
         $('#datepicker').datepicker("option",{ minDate: new Date(2022,3,1)})
-    } else if($("#studyProgram :selected").text() === "M.A. International Healthcare Management - 60" ){
+    }  */else if($("#studyProgram :selected").text() === "M.A. International Healthcare Management - 60" ){
         $('#datepicker').datepicker("setDate", new Date(2022,8,30) );
         $('#datepicker').datepicker("option",{ minDate: new Date(2022,8,30)})
-    } else if( $("#studyProgram :selected").text() === "M.A. Human Resource Management - 60" || $("#studyProgram :selected").text() === "M.A. Human Resource Management - 120"){
+    } /* else if( $("#studyProgram :selected").text() === "M.A. Human Resource Management - 60" || $("#studyProgram :selected").text() === "M.A. Human Resource Management - 120"){
         $('#datepicker').datepicker("setDate", new Date(2022,0,14) );
         $('#datepicker').datepicker("option",{ minDate: new Date(2022,0,14)})
-    }else if( $("#studyProgram :selected").text() === "B.Sc. Software Development - 180"){
+    } else if( $("#studyProgram :selected").text() === "B.Sc. Software Development - 180"){
         $('#datepicker').datepicker("setDate", new Date(2022,3,15) );
         $('#datepicker').datepicker("option",{ minDate: new Date(2022,3,15)})
-    }else if( $("#studyProgram :selected").text() === "M.A. Digital Innovation & Intrapreneurship - 60"){
+    }*/else if( $("#studyProgram :selected").text() === "M.A. Digital Innovation & Intrapreneurship - 60"){
         $('#datepicker').datepicker("setDate", new Date(2022,10,16) );
         $('#datepicker').datepicker("option",{ minDate: new Date(2022,10,16)})
     }else if( $("#studyProgram :selected").text() === "M.Sc. Business Intelligence - 60"){
@@ -2140,10 +2140,10 @@ document.getElementById("studyProgram").addEventListener("change", function() {
     }else if( $("#studyProgram :selected").text() === "M.Sc. Business Intelligence - 120"){
         $('#datepicker').datepicker("setDate", new Date(2023,2,1) );
         $('#datepicker').datepicker("option",{ minDate: new Date(2023,2,1)})
-    }else if( $("#studyProgram :selected").text() === "M.Sc. Finance, Accounting & Taxation - 120" || $("#studyProgram :selected").text() === "M.A. Innovation & Entrepreneurship - 120"){
+    }/* else if( $("#studyProgram :selected").text() === "M.Sc. Finance, Accounting & Taxation - 120" || $("#studyProgram :selected").text() === "M.A. Innovation & Entrepreneurship - 120"){
         $('#datepicker').datepicker("setDate", new Date(2022,4,16) );
         $('#datepicker').datepicker("option",{ minDate: new Date(2022,4,16)})
-    } else if (
+    }  */else if (
         $("#studyProgram :selected").text() === "B.A. Management - 240"
       ) {
         $("#datepicker").datepicker("setDate", new Date(2022, 9, 4));
