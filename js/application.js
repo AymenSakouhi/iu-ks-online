@@ -634,10 +634,10 @@ let mT = [
         name: "B.A. Management - 240",
         careId: "10008630_FI"
     },
-    {
+   /*  {
         name: "B.A. Human Resource Management - 180",
         careId: "10008709_FI"
-    },
+    }, */
     {
         name: "B.A. Marketing - 180",
         careId: "10008708_FI"
@@ -1074,7 +1074,7 @@ let mT = [
 mtCheckOnline = [
     'B.Eng. Robotics - 180',
     "B.A. Management - 240",
-    "B.A. Human Resource Management - 180",
+   // "B.A. Human Resource Management - 180",
     "B.A. Marketing - 180",
     "B.Sc. Industrial and Organisational Psychology - 180",
     'B.Sc. Data Science - 180',
